@@ -30,12 +30,18 @@ const Navbar = () => {
     const renderMobileMenu = () => {
         return (
             <Menu right isOpen={menuOpen} onStateChange={handleStateChange}>
-                <a onClick={closeMenu} className="menu-item" href="#home">Home</a>
-                <a onClick={closeMenu} className="menu-item" href="#about">About</a>
-                <a onClick={closeMenu} className="menu-item" href="#portfolio">Portfolio</a>
-                <a onClick={closeMenu} className="menu-item" href="#skills">Skills</a>
-                <a onClick={closeMenu} className="menu-item" href="#contact">Contact</a>
-                <a onClick={closeMenu} href="/path/to/your/cv.pdf" target="_blank" rel="noopener noreferrer" className="menu-item mx-6 px-4 py-2 brand-coral text-white font-bold text-lg hover:bg-gray-700 rounded-full">Download CV</a>
+                {/* Close Button */}
+                <button className="close-button" onClick={closeMenu}>
+                    X
+                </button>
+
+                {/* Menu Items */}
+                    <a onClick={closeMenu} className="menu-item active:text-customCoral focus:text-customCoral" href="#home">Home</a>
+                    <a onClick={closeMenu} className="menu-item active:text-customCoral focus:text-customCoral" href="#about">About</a>
+                    <a onClick={closeMenu} className="menu-item active:text-customCoral focus:text-customCoral" href="#portfolio">Portfolio</a>
+                    <a onClick={closeMenu} className="menu-item active:text-customCoral focus:text-customCoral" href="#skills">Skills</a>
+                    <a onClick={closeMenu} className="menu-item active:text-customCoral focus:text-customCoral" href="#contact">Contact</a>
+                    <a onClick={closeMenu} href="/path/to/your/cv.pdf" target="_blank" rel="noopener noreferrer" className="menu-item mx-6 my-8 px-4 py-2 brand-coral text-white font-bold text-lg hover:bg-gray-400 rounded-full">Download CV</a>
             </Menu>
         );
     };
@@ -51,7 +57,7 @@ const Navbar = () => {
                     <a href="#contact" className="font-bold text-lg hover:text-customCoral">Contact</a>
                 </div>
                 <div>
-                    <a href="/path/to/your/cv.pdf" target="_blank" rel="noopener noreferrer" className="mx-6 px-4 py-2 brand-coral text-white font-bold text-lg hover:bg-gray-700 rounded-full">Download CV</a>
+                    <a href="/path/to/your/cv.pdf" target="_blank" rel="noopener noreferrer" className="mx-6 px-4 py-2 brand-coral text-white font-bold text-lg hover:bg-gray-400 rounded-full">Download CV</a>
                 </div>
             </>
         );

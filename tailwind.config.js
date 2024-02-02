@@ -10,6 +10,11 @@ module.exports = {
       },
     },
   },
+  variants: {
+    extend: {
+      textColor: ['active', 'focus'],
+    },
+  },
   plugins: [],
 }
 
