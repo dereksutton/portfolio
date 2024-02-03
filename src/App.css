@@ -19,7 +19,7 @@
   background: var(--coral);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   
   .bm-burger-button {
     display: block;
@@ -27,7 +27,7 @@
     width: 36px;
     height: 30px;
     right: 36px;
-    top: 8%;
+    top: 6.75%;
     z-index: 1000;
   }
 
@@ -47,7 +47,7 @@
   .bm-item {
     display: block;
     text-decoration: none;
-    padding: 10px 0px;
+    padding: 15px 0px;
     text-align: center;
     color: #ffffff;
     transition: color 0.2s;
@@ -102,23 +102,5 @@
     width: 2px;
     background-color: var(--black);
     margin: 1.6rem 1rem;
-  }
-}
-
-@media (min-width: 769px) {
-
-  .vertical-divider {
-    height: auto;
-    background: none;
-    margin: 0;
-  }
-
-  .bm-burger-button {
-    display: none;
-  }
-
-  .desktop-menu {
-    display: flex;
-    gap: 8px;
   }
 }

@@ -5,11 +5,11 @@ import '../App.css';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 1024);
 
     useEffect(() => {
         const handleResize = () => {
-            setIsMobile(window.innerWidth < 768);
+            setIsMobile(window.innerWidth < 1024);
         };
 
         window.addEventListener("resize", handleResize);
@@ -57,16 +57,16 @@ const Navbar = () => {
                     <a href="#contact" className="font-bold text-lg hover:text-customCoral">Contact</a>
                 </div>
                 <div>
-                    <a href="/path/to/your/cv.pdf" target="_blank" rel="noopener noreferrer" className="mx-6 px-4 py-2 brand-coral text-white font-bold text-lg hover:bg-gray-400 rounded-full">Download CV</a>
+                    <a href="/path/to/your/cv.pdf" target="_blank" rel="noopener noreferrer" className="download-cv-button mx-6 px-4 py-2 brand-coral text-white font-bold text-lg hover:bg-gray-400 rounded-full">Download CV</a>
                 </div>
             </>
         );
     };
 
     return (
-        <nav className="flex items-center justify-between px-8 py-0 bg-black text-white">
+        <nav className="flex items-center justify-between px-6 py-0 bg-black text-white">
             <div className="logo">
-                <img src={logo} alt="Hero" className="h-36" />
+                <img src={logo} alt="Hero" className="navbar-logo h-36" />
             </div>
             {isMobile ? renderMobileMenu() : renderDesktopMenu()}
         </nav>
