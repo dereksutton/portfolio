@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.bc0a7d6d.css",
+    "main.js": "/portfolio/static/js/main.6bd5726f.js",
+    "static/media/head-split.png": "/portfolio/static/media/head-split.17312e8f1617e57e5427.png",
+    "static/media/DerekSutton.png": "/portfolio/static/media/DerekSutton.1e2ed041ec61b7cdd798.png",
+    "index.html": "/portfolio/index.html",
+    "main.bc0a7d6d.css.map": "/portfolio/static/css/main.bc0a7d6d.css.map",
+    "main.6bd5726f.js.map": "/portfolio/static/js/main.6bd5726f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc0a7d6d.css",
+    "static/js/main.6bd5726f.js"
+  ]
+}
