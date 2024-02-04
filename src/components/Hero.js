@@ -23,16 +23,14 @@ const Hero = () => {
   
         {/* Mobile layout text, visible only on mobile */}
         <div className="xl:hidden hero-text-container w-full">
-          <div className="hero-text-section ml-1 mr-1">
+          <div className="hero-text-section border-r border-black pr-1">
             <h1 className="text-3xl pb-3 font-bold">designer</h1>
-            <p className="text-sm">Visual Designer & Branding Expert, dedicated to crafting compelling brand identities and visual narratives.</p>
+            <p className="text-sm ml-1">Visual Designer & Branding Expert, dedicated to crafting compelling brand identities and visual narratives.</p>
           </div>
-          {/* This is the vertical line divider */}
-          <div className="vertical-divider"></div>
   
-          <div className="hero-text-section ml-1 mr-1">
+          <div className="hero-text-section pl-1">
             <h1 className="text-3xl pb-3 font-bold">{"<developer>"}</h1>
-            <p className="text-sm">Full-Stack Developer focused on clean, efficient code for high-performance, innovative software solutions.</p>
+            <p className="text-sm mr-1">Full-Stack Developer focused on clean, efficient code for high-performance, innovative software solutions.</p>
           </div>
         </div>
       </div>

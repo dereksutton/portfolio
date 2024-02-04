@@ -94,22 +94,16 @@
   .hero-text-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding: 20px 0;
-    width: 90%;
   }
 
   .hero-text-section {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     text-align: center;
-    padding: 0 0px;
-  }
 
-  .vertical-divider {
-    height: 150px;
-    width: 0.125rem;
-    background-color: var(--black);
-    margin: 0 3%;
   }
 }
