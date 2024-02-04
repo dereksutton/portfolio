@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.448d1d8c.css",
-    "main.js": "/portfolio/static/js/main.552fe709.js",
+    "main.css": "/portfolio/static/css/main.d263d256.css",
+    "main.js": "/portfolio/static/js/main.0319fbee.js",
     "static/media/head-split.png": "/portfolio/static/media/head-split.17312e8f1617e57e5427.png",
     "static/media/DerekSutton.png": "/portfolio/static/media/DerekSutton.1e2ed041ec61b7cdd798.png",
     "index.html": "/portfolio/index.html",
-    "main.448d1d8c.css.map": "/portfolio/static/css/main.448d1d8c.css.map",
-    "main.552fe709.js.map": "/portfolio/static/js/main.552fe709.js.map"
+    "main.d263d256.css.map": "/portfolio/static/css/main.d263d256.css.map",
+    "main.0319fbee.js.map": "/portfolio/static/js/main.0319fbee.js.map"
   },
   "entrypoints": [
-    "static/css/main.448d1d8c.css",
-    "static/js/main.552fe709.js"
+    "static/css/main.d263d256.css",
+    "static/js/main.0319fbee.js"
   ]
 }
