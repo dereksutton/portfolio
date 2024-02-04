@@ -30,7 +30,7 @@
   .bm-burger-button {
     display: block;
     position: absolute;
-    width: 36px;
+    width: 32px;
     height: 30px;
     right: 36px;
     top: 6.75%;
@@ -39,9 +39,7 @@
 
   .bm-menu-wrap {
     position: fixed;
-    right: 0;
     bottom: 0;
-    width: 300px;
     z-index: 1100;
   }
 
@@ -79,7 +77,7 @@
     color: var(--coral);
     font-size: 24px;
     line-height: 1;
-    padding: 1rem;
+    padding: 0;
     position: absolute;
     top: 10px;
     right: 10px;
@@ -94,7 +92,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 0;
+    padding: 20px 0;
   }
 
   .hero-text-section {
@@ -105,8 +103,8 @@
 
   .vertical-divider {
     height: 150px;
-    width: 2px;
+    width: 0.125rem;
     background-color: var(--black);
-    margin: 2px 5px;
+    margin: 0 3%;
   }
 }
