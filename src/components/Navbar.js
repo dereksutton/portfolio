@@ -5,11 +5,11 @@ import '../App.css';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 1024);
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 1280);
 
     useEffect(() => {
         const handleResize = () => {
-            setIsMobile(window.innerWidth < 1024);
+            setIsMobile(window.innerWidth < 1280);
         };
 
         window.addEventListener("resize", handleResize);
@@ -65,10 +65,10 @@ const Navbar = () => {
 
     return (
         <nav className="flex items-center justify-between bg-black text-white">
-            <div className="logo">
-                <img src={logo} alt="Hero" className="navbar-logo h-28 ml-8" />
-            </div>
-            {isMobile ? renderMobileMenu() : renderDesktopMenu()}
+                <div className="logo">
+                    <img src={logo} alt="Logo" className="navbar-logo h-28 ml-8" />
+                </div>
+                {isMobile ? renderMobileMenu() : renderDesktopMenu()}
         </nav>
     );
 };

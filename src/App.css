@@ -25,16 +25,20 @@
   background: var(--coral);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
   
   .bm-burger-button {
     display: block;
     position: absolute;
-    width: 32px;
-    height: 30px;
-    right: 36px;
-    top: 6.75%;
+    width: 2em;
+    height: 2em;
+    right: 4%;
+    top: 5%;
     z-index: 1000;
+  }
+  
+  .navbar-logo {
+    margin-left: 5%;
   }
 
   .bm-menu-wrap {
