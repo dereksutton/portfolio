@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --coral: #E2725B;
   --black: #000000;
@@ -94,13 +100,13 @@
   .hero-text-section {
     flex: 1;
     text-align: center;
-    padding: 0 8px;
+    padding: 0 0px;
   }
 
   .vertical-divider {
     height: 150px;
     width: 2px;
     background-color: var(--black);
-    margin: 1.6rem 1rem;
+    margin: 2px 5px;
   }
 }
