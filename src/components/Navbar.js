@@ -57,7 +57,7 @@ const Navbar = () => {
                     <a href="#contact" className="font-bold text-lg hover:text-customCoral">Contact</a>
                 </div>
                 <div>
-                    <a href="/path/to/your/cv.pdf" target="_blank" rel="noopener noreferrer" className="download-cv-button px-4 py-2 brand-coral text-white font-bold text-lg hover:bg-gray-400 rounded-full">Download CV</a>
+                    <a href="/path/to/your/cv.pdf" target="_blank" rel="noopener noreferrer" className="download-cv-button mr-8 px-4 py-2 brand-coral text-white font-bold text-lg hover:bg-gray-400 rounded-full">Download CV</a>
                 </div>
             </>
         );
