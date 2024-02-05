@@ -68,11 +68,7 @@ const Navbar = () => {
                 <div className="logo">
                     <img src={logo} alt="Logo" className="navbar-logo h-28" />
                 </div>
-                {isMobile ? (
-                    <div className="flex items-center justify-end">
-                        {renderMobileMenu()}
-                    </div> 
-                ) : renderDesktopMenu()}
+                {isMobile ? renderMobileMenu() : renderDesktopMenu()}
         </nav>
     );
 };
