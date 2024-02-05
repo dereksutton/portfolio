@@ -49,7 +49,7 @@ const Navbar = () => {
     const renderDesktopMenu = () => {
         return (
             <>
-                <div className="flex gap-8">
+                <div className="hidden xl:flex gap-8">
                     <a href="#home" className="font-bold text-lg hover:text-customCoral">Home</a>
                     <a href="#about" className="font-bold text-lg hover:text-customCoral">About</a>
                     <a href="#portfolio" className="font-bold text-lg hover:text-customCoral">Portfolio</a>
@@ -57,18 +57,22 @@ const Navbar = () => {
                     <a href="#contact" className="font-bold text-lg hover:text-customCoral">Contact</a>
                 </div>
                 <div>
-                    <a href="/path/to/your/cv.pdf" target="_blank" rel="noopener noreferrer" className="download-cv-button mr-8 px-4 py-2 brand-coral text-white font-bold text-lg hover:bg-gray-400 rounded-full">Download CV</a>
+                    <a href="/path/to/your/cv.pdf" target="_blank" rel="noopener noreferrer" className="download-cv-button px-4 py-2 brand-coral text-white font-bold text-lg hover:bg-gray-400 rounded-full">Download CV</a>
                 </div>
             </>
         );
     };
 
     return (
-        <nav className="flex items-center justify-between bg-black text-white">
+        <nav className="flex items-center justify-between bg-black text-white p-2">
                 <div className="logo">
-                    <img src={logo} alt="Logo" className="navbar-logo h-28 ml-8" />
+                    <img src={logo} alt="Logo" className="navbar-logo h-28" />
                 </div>
-                {isMobile ? renderMobileMenu() : renderDesktopMenu()}
+                {isMobile ? (
+                    <div className="flex items-center justify-end">
+                        {renderMobileMenu()}
+                    </div> 
+                ) : renderDesktopMenu()}
         </nav>
     );
 };

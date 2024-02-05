@@ -32,8 +32,6 @@
     position: absolute;
     width: 2em;
     height: 2em;
-    right: 4%;
-    top: 5%;
     z-index: 1000;
   }
   
@@ -96,7 +94,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 20px 0;
+    padding: 2rem 10%;
   }
 
   .hero-text-section {
@@ -104,6 +102,17 @@
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+    max-width: 720px;
+    margin: 0 auto;
+  }
 
+  .hero-text-section h1 {
+    font-size: 2.25rem;
+    line-height: 1.2;
+  }
+
+  .hero-text-section p {
+    font-size: 1rem;
+    padding-top: 1.5rem;
   }
 }

@@ -23,14 +23,14 @@ const Hero = () => {
   
         {/* Mobile layout text, visible only on mobile */}
         <div className="xl:hidden hero-text-container w-full">
-          <div className="hero-text-section border-r border-black pr-1">
-            <h1 className="text-3xl pb-3 font-bold">designer</h1>
-            <p className="text-sm mr-2">Visual Designer & Branding Expert, dedicated to crafting compelling brand identities and visual narratives.</p>
-          </div>
-  
-          <div className="hero-text-section pl-1">
-            <h1 className="text-3xl pb-3 font-bold">{"<developer>"}</h1>
-            <p className="text-sm ml-2">Full-Stack Developer focused on clean, efficient code for high-performance, innovative software solutions.</p>
+          <div className="hero-text-section pr-1">
+            <div className="flex justify-center">
+              <h1 className="text-4xl pb-2 pr-6 border-r border-black font-bold">designer</h1>
+              <h1 className="text-4xl pb-2 pl-6 font-bold">developer</h1>
+            </div>
+            <p className="text-md pt-4 lg:w-auto">I am a versatile professional - skilled in both visual design and full-stack development, 
+            adept at creating impactful brand narratives and developing efficient, high-performance software. My expertise lies in
+            seamlessly integrating creative design with technical innovation to deliver comprehensive digital solutions.</p>
           </div>
         </div>
       </div>
