@@ -4,7 +4,7 @@ import heroImage from '../assets/head-split.png';
 const Hero = () => {
 
     return (
-      <div className="bg-white text-black flex flex-col xl:flex-row items-center justify-center py-10 px-4">
+      <div className="bg-white text-black flex flex-col xl:flex-row items-center justify-center pt-4 px-4">
         <div className="hidden xl:flex justify-center">
           <div className="w-full md:w-auto md:max-w-md mr-8">
             <h1 className="text-4xl font-bold text-center md:text-center">designer</h1>
