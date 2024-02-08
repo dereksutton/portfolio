@@ -1,7 +1,7 @@
 import React from 'react';
 import heroImage from '../assets/head-split.png';
 
-const Hero = () => {
+const Home = () => {
 
     return (
       <div className="bg-white text-black flex flex-col xl:flex-row items-center justify-center pt-4 px-4">
@@ -37,4 +37,4 @@ const Hero = () => {
     );
   };
 
-  export default Hero;
+  export default Home;

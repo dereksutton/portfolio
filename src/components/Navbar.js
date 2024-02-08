@@ -3,7 +3,7 @@ import { slide as Menu } from 'react-burger-menu';
 import logo from '../assets/DerekSutton.png';
 import '../App.css';
 
-const Navbar = () => {
+const Navbar = ({ selectedSection, setSelectedSection }) => {
     const [menuOpen, setMenuOpen] = useState(false);
     const [isMobile, setIsMobile] = useState(window.innerWidth < 1280);
 
@@ -27,6 +27,11 @@ const Navbar = () => {
         setMenuOpen(false);
     };
 
+    const handleNavClick = (section) => {
+        setSelectedSection(section);
+        closeMenu();
+    }
+
     const renderMobileMenu = () => {
         return (
             <Menu right isOpen={menuOpen} onStateChange={handleStateChange}>
@@ -36,11 +41,11 @@ const Navbar = () => {
                 </button>
 
                 {/* Menu Items */}
-                    <a onClick={closeMenu} className="menu-item active:text-customCoral focus:text-customCoral" href="#home">Home</a>
-                    <a onClick={closeMenu} className="menu-item active:text-customCoral focus:text-customCoral" href="#about">About</a>
-                    <a onClick={closeMenu} className="menu-item active:text-customCoral focus:text-customCoral" href="#portfolio">Portfolio</a>
-                    <a onClick={closeMenu} className="menu-item active:text-customCoral focus:text-customCoral" href="#skills">Skills</a>
-                    <a onClick={closeMenu} className="menu-item active:text-customCoral focus:text-customCoral" href="#contact">Contact</a>
+                    <a onClick={() => handleNavClick('Home')} className="menu-item active:text-customCoral focus:text-customCoral">Home</a>
+                    <a onClick={() => handleNavClick('About')} className="menu-item active:text-customCoral focus:text-customCoral">About</a>
+                    <a onClick={() => handleNavClick('Portfolio')} className="menu-item active:text-customCoral focus:text-customCoral">Portfolio</a>
+                    <a onClick={() => handleNavClick('Skills')} className="menu-item active:text-customCoral focus:text-customCoral">Skills</a>
+                    <a onClick={() => handleNavClick('Contact')} className="menu-item active:text-customCoral focus:text-customCoral">Contact</a>
                     <a onClick={closeMenu} href="/path/to/your/cv.pdf" target="_blank" rel="noopener noreferrer" className="menu-item mx-6 my-8 px-4 py-2 brand-coral text-white font-bold text-lg hover:bg-gray-400 rounded-full">Download CV</a>
             </Menu>
         );
@@ -50,11 +55,11 @@ const Navbar = () => {
         return (
             <>
                 <div className="hidden xl:flex gap-8">
-                    <a href="#home" className="font-bold text-lg hover:text-customCoral">Home</a>
-                    <a href="#about" className="font-bold text-lg hover:text-customCoral">About</a>
-                    <a href="#portfolio" className="font-bold text-lg hover:text-customCoral">Portfolio</a>
-                    <a href="#skills" className="font-bold text-lg hover:text-customCoral">Skills</a>
-                    <a href="#contact" className="font-bold text-lg hover:text-customCoral">Contact</a>
+                    <a onClick={() => handleNavClick('Home')} className="font-bold text-lg hover:text-customCoral">Home</a>
+                    <a onClick={() => handleNavClick('About')} className="font-bold text-lg hover:text-customCoral">About</a>
+                    <a onClick={() => handleNavClick('Portfolio')} className="font-bold text-lg hover:text-customCoral">Portfolio</a>
+                    <a onClick={() => handleNavClick('Skills')} className="font-bold text-lg hover:text-customCoral">Skills</a>
+                    <a onClick={() => handleNavClick('Contact')} className="font-bold text-lg hover:text-customCoral">Contact</a>
                 </div>
                 <div>
                     <a href="/path/to/your/cv.pdf" target="_blank" rel="noopener noreferrer" className="download-cv-button mr-8 px-4 py-2 brand-coral text-white font-bold text-lg hover:bg-gray-400 rounded-full">Download CV</a>

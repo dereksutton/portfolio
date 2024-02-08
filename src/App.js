@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
@@ -8,12 +8,18 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css';
 
-function App() {
+const App = () => {
+
+  const [selectedSection, setSelectedSection] = useState('Home');
+
+
   return (
     <div className="App">
+      <Navbar selectedSection={selectedSection} setSelectedSection={setSelectedSection} />
       <div className="content">
-        <Navbar />
-        <Hero />
+        {selectedSection === 'Home' && <Home />}
+        {selectedSection === 'About' && <About />}
+
       </div>
       <Footer />
     </div>
