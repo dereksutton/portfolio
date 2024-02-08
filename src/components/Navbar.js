@@ -41,11 +41,11 @@ const Navbar = ({ selectedSection, setSelectedSection }) => {
                 </button>
 
                 {/* Menu Items */}
-                    <a onClick={() => handleNavClick('Home')} className="menu-item active:text-customCoral focus:text-customCoral">Home</a>
-                    <a onClick={() => handleNavClick('About')} className="menu-item active:text-customCoral focus:text-customCoral">About</a>
-                    <a onClick={() => handleNavClick('Portfolio')} className="menu-item active:text-customCoral focus:text-customCoral">Portfolio</a>
-                    <a onClick={() => handleNavClick('Skills')} className="menu-item active:text-customCoral focus:text-customCoral">Skills</a>
-                    <a onClick={() => handleNavClick('Contact')} className="menu-item active:text-customCoral focus:text-customCoral">Contact</a>
+                    <a onClick={() => handleNavClick('Home')} className="menu-item active:text-customCoral focus:text-customCoral cursor-pointer">Home</a>
+                    <a onClick={() => handleNavClick('About')} className="menu-item active:text-customCoral focus:text-customCoral cursor-pointer">About</a>
+                    <a onClick={() => handleNavClick('Portfolio')} className="menu-item active:text-customCoral focus:text-customCoral cursor-pointer">Portfolio</a>
+                    <a onClick={() => handleNavClick('Skills')} className="menu-item active:text-customCoral focus:text-customCoral cursor-pointer">Skills</a>
+                    <a onClick={() => handleNavClick('Contact')} className="menu-item active:text-customCoral focus:text-customCoral cursor-pointer">Contact</a>
                     <a onClick={closeMenu} href="/path/to/your/cv.pdf" target="_blank" rel="noopener noreferrer" className="menu-item mx-6 my-8 px-4 py-2 brand-coral text-white font-bold text-lg hover:bg-gray-400 rounded-full">Download CV</a>
             </Menu>
         );
