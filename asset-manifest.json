@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a19ea98a.css",
-    "main.js": "/portfolio/static/js/main.16f35f05.js",
+    "main.css": "/portfolio/static/css/main.84ae8d24.css",
+    "main.js": "/portfolio/static/js/main.08b1ba35.js",
     "static/media/head-split.png": "/portfolio/static/media/head-split.17312e8f1617e57e5427.png",
     "static/media/family-photo.jpg": "/portfolio/static/media/family-photo.180050181fa37c590627.jpg",
+    "static/media/developer.png": "/portfolio/static/media/developer.04f4b6e166529b0b3526.png",
+    "static/media/developer2.png": "/portfolio/static/media/developer2.f24f08d31f6de213b286.png",
     "static/media/DerekSutton.png": "/portfolio/static/media/DerekSutton.1e2ed041ec61b7cdd798.png",
+    "static/media/designer.png": "/portfolio/static/media/designer.b4df64218856b275ac77.png",
     "index.html": "/portfolio/index.html",
-    "main.a19ea98a.css.map": "/portfolio/static/css/main.a19ea98a.css.map",
-    "main.16f35f05.js.map": "/portfolio/static/js/main.16f35f05.js.map"
+    "main.84ae8d24.css.map": "/portfolio/static/css/main.84ae8d24.css.map",
+    "main.08b1ba35.js.map": "/portfolio/static/js/main.08b1ba35.js.map"
   },
   "entrypoints": [
-    "static/css/main.a19ea98a.css",
-    "static/js/main.16f35f05.js"
+    "static/css/main.84ae8d24.css",
+    "static/js/main.08b1ba35.js"
   ]
 }
