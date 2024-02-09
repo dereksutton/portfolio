@@ -30,7 +30,7 @@ const Home = () => {
           <div className="hero-text-section">
             <div className="flex justify-center">
               <img src={designerImg} className="w-48 h-auto border-r border-black mr-2"></img>
-              <img src={developerImg2} className="w-48 h-auto ml-2"></img>
+              <img src={developerImg2} className="w-48 h-auto"></img>
             </div>
             <p className="text-md pt-4 lg:w-auto">I am a versatile professional - skilled in both visual design and full-stack development, 
             adept at creating impactful brand narratives and developing efficient, high-performance software. My expertise lies in
