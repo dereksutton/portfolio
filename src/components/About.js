@@ -30,11 +30,11 @@ const About = () => {
                 that resonate with diverse audiences. My approach to digital solutions is not just about aesthetics or functionality, but the 
                 seamless fusion of both, driving brand engagement and technological advancement.
                 </p>
-                <blockquote className="text-md text-customCoral font-bold mt-6">"The journey is the reward." - Steve Jobs</blockquote>
+                <blockquote className="text-xl text-customCoral font-bold mt-6">"The journey is the reward." - Steve Jobs</blockquote>
             </div>
 
             {/* Image */}
-            <div className="md:w-2/3 lg:max-w-lg">
+            <div className="md:w-2/3 lg:w-2/3 xl:max-w-full m-4">
                 <img src={aboutImg} alt="This is a photo of me with my wife and daughter on a beautiful spring day at the park." 
                 className="w-full h-auto rounded-lg shadow-md"  />
             </div>
