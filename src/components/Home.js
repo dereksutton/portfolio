@@ -27,10 +27,10 @@ const Home = () => {
   
         {/* Mobile layout text, visible only on mobile */}
         <div className="xl:hidden hero-text-container w-full">
-          <div className="hero-text-section pr-1">
-            <div className="flex items-center justify-center">
-              <img src={designerImg} className="w-56 h-auto border-r border-black"></img>
-              <img src={developerImg2} className="w-56 h-auto ml-3"></img>
+          <div className="hero-text-section">
+            <div className="flex justify-center">
+              <img src={designerImg} className="w-48 h-auto border-r border-black mr-2"></img>
+              <img src={developerImg2} className="w-48 h-auto ml-2"></img>
             </div>
             <p className="text-md pt-4 lg:w-auto">I am a versatile professional - skilled in both visual design and full-stack development, 
             adept at creating impactful brand narratives and developing efficient, high-performance software. My expertise lies in
