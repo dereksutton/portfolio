@@ -9,7 +9,7 @@ const Footer = () => {
                     <a href="https://github.com" className="hover:text-customCoral">GitHub</a>
                     <a href="https://linkedin.com" className="hover:text-customCoral">LinkedIn</a>
                 </div>
-            <p className="text-customCoral mt-2">&copy; {new Date().getFullYear()} Derek Sutton. All rights reserved.</p>
+            <p className="text-customCoral mt-2">&copy; {new Date().getFullYear()} Made with React by Derek Sutton. All rights reserved.</p>
             </div>
         </footer>
     );
