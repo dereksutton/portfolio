@@ -62,7 +62,7 @@ const Navbar = ({ selectedSection, setSelectedSection }) => {
                     <a onClick={() => handleNavClick('Contact')} className="font-bold text-lg hover:text-customCoral cursor-pointer">Contact</a>
                 </div>
                 <div>
-                    <a href="/path/to/your/cv.pdf" target="_blank" rel="noopener noreferrer" className="download-cv-button mr-8 px-4 py-2 brand-coral text-white font-bold text-lg hover:bg-gray-400 rounded-full">Download CV</a>
+                    <a href="/path/to/your/cv.pdf" target="_blank" rel="noopener noreferrer" className="download-cv-button mr-8 px-4 py-2 bg-slate-400 text-white font-bold text-lg hover:bg-gray-400 rounded-full">Download CV</a>
                 </div>
             </>
         );
