@@ -69,7 +69,7 @@ const Navbar = ({ selectedSection, setSelectedSection }) => {
     };
 
     return (
-        <nav className="flex items-center justify-between bg-black text-white p-2">
+        <nav className="flex items-center justify-between bg-black text-slate-200 p-2">
                 <div className="logo">
                     <img src={logo} alt="Logo" className="navbar-logo h-28" />
                 </div>
