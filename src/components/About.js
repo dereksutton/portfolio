@@ -5,7 +5,7 @@ import '../App.css';
 
 const About = () => {
     return (
-        <div className="flex flex-col-reverse xl:flex-row items-center justify-center min-h-screen bg-white px-4 py-8">
+        <div className="flex flex-col-reverse xl:flex-row items-center justify-center min-h-screen bg-slate-200 px-4 py-8">
             {/* Text Content */}
             <div className="flex flex-col items-center md:w-2/3 lg:max-w-4/6 px-4/5 xl:px-28 mr-6">
                 <img src={aboutMe} className="w-auto"></img>
