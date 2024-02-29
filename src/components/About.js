@@ -18,18 +18,20 @@ const About = () => {
                 and technical development skills to the digital realm. With extensive experience in managing diverse multimedia 
                 projects and branding strategies, I have successfully led initiatives for a variety of clients, including Fortune 100 
                 companies and government institutions. My journey in visual design has been marked by creating impactful marketing 
-                collateral, ranging from logos to social media graphics.
+                collateral, ranging from logos to social media graphics and everything in between.
                 </p>
                 <p className="text-lg mt-4">
-                With a desire to expand my skill set, I ventured into Full-Stack Web Development, focusing on eCommerce and innovative 
-                tech solutions. My projects include a user-friendly food truck locator app and an AI-based interview preparation tool.
+                With a desire to expand my skill set, I ventured into Full-Stack Web Development, focusing on eCommerce and automation 
+                solutions. My projects include a user-friendly food truck locator app and an AI-based interview preparation tool.
                 A graduate of the Georgia Tech Full-Stack Coding Bootcamp, I am proficient in frontend and backend development, database 
                 management, and various design tools.
                 </p>
                 <p className="text-lg mt-4">
-                I thrive in environments that require both creative vision and technical acumen, consistently delivering integrated solutions 
-                that resonate with diverse audiences. My approach to digital solutions is not just about aesthetics or functionality, but the 
-                seamless fusion of both, driving brand engagement and technological advancement.
+                I thrive in environments that require both creative vision and technical acumen, consistently delivering integrated 
+                solutions that resonate with diverse audiences. My approach to digital solutions is not just about aesthetics or 
+                functionality, but the seamless fusion of both, driving brand engagement and technological advancement. Committed to 
+                lifelong learning, I'm always looking for opportunities to expand my knowledge and skills, ensuring that my work stays 
+                at the forefront of innovation and industry trends.
                 </p>
                 <blockquote className="text-xl text-customCoral font-bold mt-6">"The journey is the reward." - Steve Jobs</blockquote>
             </div>
