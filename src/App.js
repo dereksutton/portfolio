@@ -19,6 +19,8 @@ const App = () => {
       <div className="content">
         {selectedSection === 'Home' && <Home />}
         {selectedSection === 'About' && <About />}
+        {selectedSection === 'Portfolio' && <Portfolio />}
+        {selectedSection === 'Skills' && <Skills />}
         {selectedSection === 'Contact' && <Contact />}
       </div>
       <Footer />
