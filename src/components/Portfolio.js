@@ -49,7 +49,7 @@ const Portfolio = () => {
                         Design
                     </motion.div>
                     <motion.div
-                        className="bg-slate-300 p-10 text-white rounded-lg shadow-lg cursor-pointer"
+                        className="bg-purple-300 p-10 text-white rounded-lg shadow-lg cursor-pointer"
                         onClick={() => setSelectedCategory('development')}
                         variants={cardVariants}
                         initial="initial"
