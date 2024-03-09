@@ -67,7 +67,7 @@ const Home = () => {
         >
           <div className="flex flex-col items-center w-full md:w-auto md:max-w-md mr-8">
             <img src={designerImg} className="w-80 h-auto"></img>
-            <p className="text-lg text-center md:text-center py-4">Visual Designer & Branding Expert, dedicated to crafting compelling brand identities and visual narratives.</p>
+            <p className="text-xl text-center md:text-center py-4">Visual Designer & Branding Expert, dedicated to crafting compelling brand identities and visual narratives.</p>
           </div>
         </motion.div>
 
@@ -93,7 +93,7 @@ const Home = () => {
         >
           <div className="flex flex-col items-center w-full md:w-auto md:max-w-md ml-8">
             <img src={developerImg} className="w-80 h-auto"></img>
-            <p className="text-lg text-center md:text-center py-4">Full-Stack Developer focused on clean, efficient code for high-performance, innovative software solutions.</p>
+            <p className="text-xl text-center md:text-center py-4">Full-Stack Developer focused on clean, efficient code for high-performance, innovative software solutions.</p>
           </div>
         </motion.div>
   
