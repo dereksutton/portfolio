@@ -73,7 +73,7 @@ const Home = () => {
 
         <motion.img 
           src={heroImage}
-          alt="Professional Headshot"
+          alt="My Professional Headshot"
           className="w-full max-w-lg lg:max-w-lg xl:max-w-xl mt-0 mb-0 rounded-[25%]"
           variants={imageVariants}
           initial="hidden"
