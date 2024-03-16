@@ -110,7 +110,7 @@ const Home = () => {
               <img src={developerImg2} className="w-44 md:w-60 h-auto"></img>
             </div>
             <p className="text-md pt-4 lg:w-auto">
-              I am a versatile professional - skilled in both visual design and full-stack development, 
+              I'm a versatile, resilient, adaptable professional - skilled in both visual design and full-stack development, 
               adept at creating impactful brand narratives and developing efficient, high-performance software. My expertise lies in
               seamlessly integrating creative design with technical innovation to deliver comprehensive digital solutions.
             </p>
